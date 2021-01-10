@@ -19,4 +19,4 @@ describe('About Component', () => {
     expect(asFragment()).toMatchSnapshot();
   })
 
-})
+});
