@@ -1,10 +1,18 @@
 import React from 'react';
 
 function Header() {
+
+  const headerStyle = {
+    'font-size': '40px',
+    'justify-content': 'center',
+    'display': "flex",
+    'width': '25%'
+  }
+
   return (
-    <section>
-      <h1 id="header">Chris Meissner</h1>
-    </section>
+    <header style={headerStyle}>
+      <p>Chris Meissner</p>
+    </header>
   );
 }
 
