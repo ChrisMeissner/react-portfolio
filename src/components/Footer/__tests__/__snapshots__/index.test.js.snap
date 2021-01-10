@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Footer Component matches snapshot DOM node structure 1`] = `
+<DocumentFragment>
+  <section
+    style="display: flex; flex-direction: row; justify-content: space-between; align-items: center; width: 30%; margin: auto; background-color: rgb(255, 41, 91); border-radius: 15px;"
+  >
+    <a
+      href="https://github.com/ChrisMeissner"
+      style="display: flex; flex-direction: row; justify-content: center; width: 100%; margin: 2.5%;"
+    >
+      <img
+        alt="github-icon"
+        src="githubIcon.png"
+        style="display: flex; flex-direction: row; justify-content: center; width: inherit;"
+      />
+    </a>
+    <a
+      href="https://www.linkedin.com/in/chris-meissner-a8a331149/"
+      style="display: flex; flex-direction: row; justify-content: center; width: 100%; margin: 2.5%;"
+    >
+      <img
+        alt="linkedIn-icon"
+        src="linkedInIcon.png"
+        style="display: flex; flex-direction: row; justify-content: center; width: inherit;"
+      />
+    </a>
+    <a
+      href="https://www.instagram.com/chris_meissner/?hl=en"
+      style="display: flex; flex-direction: row; justify-content: center; width: 100%; margin: 2.5%;"
+    >
+      <img
+        alt="instagram-icon"
+        src="instagramIcon.png"
+        style="display: flex; flex-direction: row; justify-content: center; width: inherit;"
+      />
+    </a>
+  </section>
+</DocumentFragment>
+`;
