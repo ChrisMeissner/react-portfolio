@@ -6,8 +6,7 @@ const navContainerStyle = {
   justifyContent: 'center',
   alignItems: 'center',
   width: '60%',
-  height: 'inherit',
-  backgroundColor: 'pink'
+  height: 'inherit'
 };
 
 const navAnchorStyle = {

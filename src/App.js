@@ -3,9 +3,13 @@ import Header from './components/Header';
 import Nav from './components/Nav';
 import About from './components/About';
 import Footer from './components/Footer';
+import pinkZebra from '../src/assets/pics/pinkZebra.png';
 
 const overallStyling = {
-  fontFamily: 'obstacle'
+  fontFamily: 'obstacle',
+  backgroundImage: `url(${pinkZebra})`,
+  backgroundRepeat: 'no-repeat',
+  backgroundSize: 'cover' 
 };
 
 const headerContainerStyling = {

@@ -9,7 +9,9 @@ const footerContainerStyle = {
   justifyContent: 'space-between',
   alignItems: 'center',
   width: '30%',
-  margin: 'auto'
+  margin: 'auto',
+  backgroundColor: '#ff295b',
+  borderRadius: '15px'
 };
 
 const anchorStyle = {

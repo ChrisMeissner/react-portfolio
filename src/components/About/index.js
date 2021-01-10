@@ -5,10 +5,12 @@ const aboutTitleStyling = {
   display: 'flex',
   flexDirection: 'row',
   justifyContent: 'center',
-  width: '50%',
+  width: '100%',
   margin: 'auto',
   padding: '5% 0% 0%',
-  fontSize: '60px'
+  fontSize: '60px',
+  color: '#FFFFFF',
+  backgroundColor: '#000000'
 };
 
 const aboutContentStyling = {
@@ -18,7 +20,8 @@ const aboutContentStyling = {
   alignItems: 'stretch',
   width: '100%',
   height: '50%',
-  margin: 'auto'
+  margin: 'auto',
+  color: '#FFFFFF',
 };
 
 const aboutPicStyling = {
