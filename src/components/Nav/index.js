@@ -1,26 +1,26 @@
 import React from 'react';
 
+const navContainerStyle = {
+  display: 'flex',
+  flexDirection: 'row',
+  justifyContent: 'center',
+  alignItems: 'center',
+  width: '60%',
+  height: 'inherit',
+  backgroundColor: 'pink'
+};
+
+const navAnchorStyle = {
+  fontSize: '40px',
+  color: 'white',
+  textDecoration: 'none',
+  justifyContent: 'center',
+  padding: '0% 2.5%'
+}
+
 function Nav() {
-
-  const navContainerStyle = {
-    'display': 'flex',
-    'flex-direction': 'row',
-    'justify-content': 'space-evenly',
-    'align-items': 'center',
-    'width': '75%',
-    'background-color': 'blue'
-  };
-
-  const navAnchorStyle = {
-    'font-size': '40px',
-    'color': 'white',
-    'text-decoration': 'none',
-    'justify-content': "center",
-    'padding': '0% 2.5%'
-  }
-
   return (
-      <nav style={navContainerStyle}>
+      <header style={navContainerStyle}>
         <a href="#about" style={navAnchorStyle}>
           <p>About Me</p>
         </a>
@@ -33,8 +33,8 @@ function Nav() {
         <a href="#resume" style={navAnchorStyle}>
           <p>Resume</p>
         </a>
-      </nav>
+      </header>
   );
-}
+};
 
 export default Nav;

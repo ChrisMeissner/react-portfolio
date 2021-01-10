@@ -1,38 +1,36 @@
 import React from 'react';
 import Header from './components/Header';
 import Nav from './components/Nav';
+import About from './components/About';
 import Footer from './components/Footer';
 
+const overallStyling = {
+  fontFamily: 'obstacle'
+};
+
+const headerContainerStyling = {
+  display: 'flex',
+  flexDirection: 'row',
+  justifyContent: 'space-between',
+  alignItems: 'stretch',
+  width: '100%'
+};
+
 function App() {
-
-  const overallStyling = {
-    'font-family': 'obstacle'
-  }
-
-  const headerContainerStyling = {
-    'display': 'flex',
-    'flex-direction': 'row',
-    'justify-content': 'space-between',
-    'align-items': 'center',
-    'width': '100%'  
-  }
-
-  return (
+  return(
     <div style={overallStyling}>
       <div style={headerContainerStyling}>
-        <Header></Header> 
-        <Nav></Nav>
+        <Header/> 
+        <Nav/>
       </div>
 
       <main>
-          
+        <About/>
       </main>
 
-      <div>
-        <Footer></Footer>
-      </div>
+      <Footer/>
     </div>
-  );
-}
+  )
+};
 
 export default App;
