@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header Component matches snapshot DOM node structure 1`] = `
+<DocumentFragment>
+  <div
+    style="display: flex; justify-content: center; align-items: center; width: 40%; height: inherit; font-size: 60px; color: rgb(255, 255, 255);"
+  >
+    Chris Meissner
+  </div>
+</DocumentFragment>
+`;
