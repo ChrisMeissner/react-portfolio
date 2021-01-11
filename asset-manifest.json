@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.js": "/react-portfolio/static/js/main.0b6d06db.chunk.js",
+    "main.js.map": "/react-portfolio/static/js/main.0b6d06db.chunk.js.map",
+    "runtime-main.js": "/react-portfolio/static/js/runtime-main.bf8483e0.js",
+    "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.bf8483e0.js.map",
+    "static/js/2.9467d2f1.chunk.js": "/react-portfolio/static/js/2.9467d2f1.chunk.js",
+    "static/js/2.9467d2f1.chunk.js.map": "/react-portfolio/static/js/2.9467d2f1.chunk.js.map",
+    "static/js/3.e27464b5.chunk.js": "/react-portfolio/static/js/3.e27464b5.chunk.js",
+    "static/js/3.e27464b5.chunk.js.map": "/react-portfolio/static/js/3.e27464b5.chunk.js.map",
+    "index.html": "/react-portfolio/index.html",
+    "static/js/2.9467d2f1.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.9467d2f1.chunk.js.LICENSE.txt",
+    "static/media/githubIcon.12de4c41.png": "/react-portfolio/static/media/githubIcon.12de4c41.png",
+    "static/media/instagramIcon.9a9e6f69.png": "/react-portfolio/static/media/instagramIcon.9a9e6f69.png",
+    "static/media/linkedInIcon.8e7a5c90.png": "/react-portfolio/static/media/linkedInIcon.8e7a5c90.png",
+    "static/media/pinkZebra.689a50f4.png": "/react-portfolio/static/media/pinkZebra.689a50f4.png",
+    "static/media/profilePic.c0c6dd3e.jpg": "/react-portfolio/static/media/profilePic.c0c6dd3e.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.bf8483e0.js",
+    "static/js/2.9467d2f1.chunk.js",
+    "static/js/main.0b6d06db.chunk.js"
+  ]
+}
