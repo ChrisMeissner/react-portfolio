@@ -2,6 +2,7 @@ import React from 'react';
 import Header from './components/Header';
 import Nav from './components/Nav';
 import About from './components/About';
+import Contact from './components/Contact'
 import Footer from './components/Footer';
 import pinkZebra from '../src/assets/pics/pinkZebra.png';
 
@@ -30,6 +31,7 @@ function App() {
 
       <main>
         <About/>
+        <Contact/>
       </main>
 
       <Footer/>
