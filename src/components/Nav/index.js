@@ -26,7 +26,7 @@ function Nav() {
         <a href="#portfolio" style={navAnchorStyle}>
           <p>Portfolio</p>
         </a>
-        <a href="#contact" style={navAnchorStyle}>
+        <a href="#contact-form" style={navAnchorStyle}>
           <p>Contact</p>
         </a>
         <a href="#resume" style={navAnchorStyle}>

@@ -7,7 +7,7 @@ const aboutTitleStyling = {
   justifyContent: 'center',
   width: '100%',
   margin: 'auto',
-  padding: '5% 0% 0%',
+  padding: '5% 0%',
   fontSize: '60px',
   color: '#FFFFFF',
   backgroundColor: '#000000'
